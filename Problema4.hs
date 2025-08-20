@@ -9,4 +9,4 @@ main = do
     putStrLn "Ingrese un número:"
     input <- getLine
     let numero = read input :: Int
-    putStrLn $ "El número es " ++ parImpar numero
+    putStrLn $ "El número es: " ++ parImpar numero
