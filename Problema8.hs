@@ -11,4 +11,4 @@ main = do
     input <- getLine
     let age = read input :: Int
     let price = ticketPrice age
-    putStrLn $ "El precio del ticket es: " ++ show price ++ " COP"
+    putStrLn $ "El precio del ticket es: " ++ show price ++ " COP."
